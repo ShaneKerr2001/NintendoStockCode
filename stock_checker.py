@@ -60,3 +60,11 @@ def main():
             print("Error:", e)
 
         time.sleep(CHECK_INTERVAL)
+
+def test_discord():
+    print("Sending test alerts...")
+    send_NES_alert()
+    send_SNES_alert()
+
+if __name__ == "__main__":
+    test_discord()
