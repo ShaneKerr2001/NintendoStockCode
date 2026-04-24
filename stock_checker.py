@@ -67,4 +67,4 @@ def test_discord():
     send_SNES_alert()
 
 if __name__ == "__main__":
-    test_discord()
+    main()
